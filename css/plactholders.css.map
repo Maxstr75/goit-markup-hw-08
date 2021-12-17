@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/utils/plactholders.scss"
+    ],
+    "names": [],
+    "file": "plactholders.css"
+}
