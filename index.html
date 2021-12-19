@@ -13,21 +13,21 @@
       referrerpolicy="no-referrer"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
-    
+
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка-->
-    <header class="page__header header">
+    <!-- <header class="page__header header">
       <div class="container header__container">
         <a class="link header__logo-web" href="./index.html"
           >Web<span class="link header__logo-studio">Studio</span></a
@@ -62,20 +62,22 @@
           </li>
         </ul> 
       </div>
-    </header>
+    </header> -->
     <main>
       <!--Заглавие - что предлагаем-->
       <section class="hero">
         <div class="hero__container container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <p>
-            <button class="hero__btn-item" type="button" data-modal-open>Заказать услугу</button>
+            <button class="hero__btn-item" type="button" data-modal-open>
+              Заказать услугу
+            </button>
           </p>
         </div>
       </section>
 
       <!--Наши особенности-->
-      <section class="peculiarities">
+      <!-- <section class="peculiarities">
         <div class="container peculiarities__container">
           <ul class="peculiarities-list list">
             <li class="peculiarities-list__title-title">
@@ -108,10 +110,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--Чем мы знимаемся-->
-      <section class="about-work">
+      <!-- <section class="about-work">
         <div class="container work-container">
           <h2 class="about__title">Чем мы занимаемся</h2>
           <ul class="list work-list">
@@ -144,10 +146,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--Наша команда-->
-      <section class="team">
+      <!-- <section class="team">
           <div class="container team__container">
             <h2 class="section team__title">Наша команда</h2>
               <ul class="list team-list">
@@ -310,10 +312,10 @@
                 </li>
               </ul>
             </div>
-      </section>
+      </section> -->
     </main>
     <!--Постоянные клиенты-->
-    <section class="client">
+    <!-- <section class="client">
         <div class="container client__container">
           <h2 class="section client__title">Постоянные клиенты</h2>
           <ul class="list client-social">
@@ -361,9 +363,9 @@
             </li>
           </ul>
         </div>
-    </section>
+    </section> -->
     <!--Подвал: адрес и контакты-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer__container">
         <div>
         <a
@@ -443,77 +445,98 @@
         </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-                <button type="button" class="modal__close" data-modal-close>
-                    <svg class="modal__close-icon" width="18" height="18">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                </button>
-                <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
-                <form action="user-name" class="modal__form">
-                  <div class="modal__field">
-                    <label for="user-name" class="form__input-text">Имя</label>
-                    <div class="input-wrup">
-                      <input type="name" class="modal__form-input" 
-                      name="user-name" id="user-name" 
-                      required
-                      minlength="2" 
-                      >
-                      <svg class="input__icon" width="18" height="18">
-                        <use href="./images/icons.svg#icon-person"></use>
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="modal__field">
-                    <label for="user-tel" class="form__input-text">Телефон</label>
-                    <div class="input-wrup">
-                      <input type="tel" class="modal__form-input"
-                      name="user-tel" id="user-tel"
-                      required  
-                      >
-                      <svg class="input__icon" width="18" height="18">
-                          <use href="./images/icons.svg#icon-phone"></use>
-                        </svg>
-                    </div>
-                  </div>
-                    <div class="modal__field">
-                      <label for="user-email" class="form__input-text">Почта</label>
-                      <div class="input-wrup">
-                        <input type="email" class="modal__form-input"
-                        name="user-email" id="user-email"
-                        required  
-                        >
-                        <svg class="input__icon" width="18" height="18">
-                            <use href="./images/icons.svg#icon-email"></use>
-                          </svg>
-                      </div>
-                    </div>
-                  <div class="modal__field">
-                    <label for="user-comment" class="form__input-text">Комментарий</label>
-                    <textarea name="user-comment" id="user-comment"
-                    class="modal__form-text"
-                    placeholder="Введите текст"></textarea>
-                  </div>
-                  <div class="modal__field">
-                        <input type="checkbox" name="policy" id="policy"
-                        class="modal__check visually-hidden"
-                        required>
-                        <label for="policy" class="check__text">
-                            <span class="check__item">
-                                <svg class="check__icon" width="11" height="8">
-                                    <use href="./images/icons.svg#icon-vector"></use>
-                                </svg>
-                            </span>Соглашаюсь с рассылкой и принимаю&nbsp;<a class="link-policy" href="">
-                            Условия договора</a> 
-                        </label>
-                    </div>
-                  <button type="submit" class="btn__modal-btn">Отправить</button>
-                  
-                </form>
+      <div class="modal">
+        <button type="button" class="modal__close" data-modal-close>
+          <svg class="modal__close-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="user-name" class="modal__form">
+          <div class="modal__field">
+            <label for="user-name" class="form__input-text">Имя</label>
+            <div class="input-wrup">
+              <input
+                type="name"
+                class="modal__form-input"
+                name="user-name"
+                id="user-name"
+                required
+                minlength="2"
+              />
+              <svg class="input__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
             </div>
-        </div>
-        <script src="./js/modal.js"></script>
+          </div>
+          <div class="modal__field">
+            <label for="user-tel" class="form__input-text">Телефон</label>
+            <div class="input-wrup">
+              <input
+                type="tel"
+                class="modal__form-input"
+                name="user-tel"
+                id="user-tel"
+                required
+              />
+              <svg class="input__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal__field">
+            <label for="user-email" class="form__input-text">Почта</label>
+            <div class="input-wrup">
+              <input
+                type="email"
+                class="modal__form-input"
+                name="user-email"
+                id="user-email"
+                required
+              />
+              <svg class="input__icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal__field">
+            <label for="user-comment" class="form__input-text"
+              >Комментарий</label
+            >
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal__form-text"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <div class="modal__field">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal__check visually-hidden"
+              required
+            />
+            <label for="policy" class="check__text">
+              <span class="check__item">
+                <svg class="check__icon" width="11" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg> </span
+              >Соглашаюсь с рассылкой и принимаю&nbsp;<a
+                class="link-policy"
+                href=""
+              >
+                Условия договора</a
+              >
+            </label>
+          </div>
+          <button type="submit" class="btn__modal-btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
