@@ -1,26 +1,37 @@
 // .peculiarities {
-//   padding-top: 94px;
-//   padding-bottom: 94px;
+//   padding-top: 60px;
+//   padding-bottom: 60px;
 // }
 
 .peculiarities__container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .peculiarities-list {
-  display: flex;
+  // width: 270px;
+  margin-bottom: -30px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+}
+
+.peculiarities-list__title-title {
+  margin-right: 30px;
+  width: 100%;
 }
 
 .peculiarities-list__title-title {
   &:not(:last-child) {
     margin-right: 30px;
-    width: 270px;
+    width: 100%;
   }
   &::before {
-    display: block;
+    display: flex;
     content: "";
-    width: 270px;
+    width: 100%;
     height: 120px;
     background-color: #f5f4fa;
     margin-bottom: 25px;
@@ -28,6 +39,10 @@
     background-image: url("../images/antenna.svg");
     background-repeat: no-repeat;
     background-position: center;
+    @media screen and (min-width: 768px) {
+      width: calc(100% / 2 - 30px);
+      margin-left: 30px;
+    }
   }
 }
 
@@ -58,6 +73,7 @@
   color: var(--second-title-color);
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .peculiarities__after-title {
@@ -66,5 +82,6 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  width: 270px;
+  width: 100%;
+  margin-bottom: 30px;
 }
