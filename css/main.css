@@ -1026,6 +1026,7 @@ body {
   .online-input {
     width: 100%;
     margin-bottom: unset;
+    margin-right: 12px;
   }
 }
 
