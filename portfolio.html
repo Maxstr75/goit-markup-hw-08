@@ -23,7 +23,7 @@
   </head>
   <body>
     <!--Шапка-->
-    <header class="page__header header">
+    <!-- <header class="page__header header">
       <div class="container header__container">
         <a class="link header__logo-web" href="./index.html"
           >Web<span class="link header__logo-studio">Studio</span></a
@@ -63,10 +63,10 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> -->
     <main>
       <!--Особенности-->
-      <section class="features">
+      <!-- <section class="features">
         <div class="container features-container">
           <h1 class="visually-hidden">Padge portfolio</h1>
           <ul class="list features__list">
@@ -96,19 +96,41 @@
               </p>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <!--Проекты-->
-        <div class="container features-card-container">
+      <!--Проекты-->
+      <div class="container features-card-container">
           <ul class="list features-card__list card">
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/Tehnokrayk.jpg"
-                  alt="Ноутбук"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/features/Tehnokrayk-min.jpg 1x, 
+                  ./images/features/Tehnokrayk-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/Tehnokrayk-tab-min.jpg 1x, 
+                  ./images/features/Tehnokrayk-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/Tehnokrayk-mob-min.jpg 1x, 
+                  ./images/features/Tehnokrayk-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/Tehnokrayk-mob-min.jpg"
+                    alt="Ноутбук"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -122,12 +144,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/poster.jpg"
-                  alt="Постер"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/features/poster-min.jpg 1x, 
+                  ./images/features/poster-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/poster-tab-min.jpg 1x, 
+                  ./images/features/poster-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/poster-mob-min.jpg 1x, 
+                  ./images/features/poster-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/poster-mob-min.jpg"
+                    alt="Постер"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -145,12 +189,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/restaurant.jpg"
-                  alt="Ресторан"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/features/restaurant-min.jpg 1x, 
+                  ./images/features/restaurant-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/restaurant-tab-min.jpg 1x, 
+                  ./images/features/restaurant-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/restaurant-mob-min.jpg 1x, 
+                  ./images/features/restaurant-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/restaurant-mob-min.jpg"
+                    alt="Ресторан"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+              
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -166,12 +232,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/Prime.jpg"
-                  alt="Наушники"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/features/Prime-min.jpg 1x, 
+                  ./images/features/Prime-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/Prime-tab-min.jpg 1x, 
+                  ./images/features/Prime-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/Prime-mob-min.jpg 1x, 
+                  ./images/features/Prime-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/Prime-mob-min.jpg"
+                    alt="Наушники"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -187,12 +275,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/boxes.jpg"
-                  alt="Коробка"
-                  width="370"
-                  height="294"
-                />
+                 <picture>
+                  
+                  <source srcset="
+                  ./images/features/boxes-min.jpg 1x, 
+                  ./images/features/boxes-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/boxes-tab-min.jpg 1x, 
+                  ./images/features/boxes-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/boxes-mob-min.jpg 1x, 
+                  ./images/features/boxes-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/boxes-mob-min.jpg"
+                    alt="Коробка"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -208,12 +318,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/borders.jpg"
-                  alt="Монитор"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/features/borders-min.jpg 1x, 
+                  ./images/features/borders-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/borders-tab-min.jpg 1x, 
+                  ./images/features/borders-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/borders-mob-min.jpg 1x, 
+                  ./images/features/borders-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/borders-mob-min.jpg"
+                    alt="Монитор"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -227,12 +359,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/edition.jpg"
-                  alt="Книга"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/features/edition-min.jpg 1x, 
+                  ./images/features/edition-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/edition-tab-min.jpg 1x, 
+                  ./images/features/edition-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/edition-mob-min.jpg 1x, 
+                  ./images/features/edition-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/edition-mob-min.jpg"
+                    alt="Книга"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -250,12 +404,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/lab.jpg"
-                  alt="Брелок"
-                  width="370"
-                  height="294"
-                />
+                    <picture>
+                  
+                  <source srcset="
+                  ./images/features/lab-min.jpg 1x, 
+                  ./images/features/lab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/lab-tab-min.jpg 1x, 
+                  ./images/features/lab-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/lab-mob-min.jpg 1x, 
+                  ./images/features/lab-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/lab-mob-min.jpg"
+                    alt="Брелок"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
@@ -271,12 +447,34 @@
             </li>
             <li class="card__item">
               <div class="card__item-wrap">
-                <img
-                  src="./images/business.jpg"
-                  alt="Печатает на ноутбуке"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/features/business-min.jpg 1x, 
+                  ./images/features/business-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/features/business-tab-min.jpg 1x, 
+                  ./images/features/business-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/features/business-mob-min.jpg 1x, 
+                  ./images/features/business-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/features/business-mob-min.jpg"
+                    alt="Печатает на ноутбуке"
+                    width="100%"
+                    height="auto"
+                  />
+                </picture>
+                
                 <p class="card__item-top-text">
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
