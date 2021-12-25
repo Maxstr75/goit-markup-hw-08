@@ -9,8 +9,12 @@
 
 .features__list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   margin-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .hero__btn {
@@ -40,8 +44,14 @@
 }
 
 .features__item {
-  padding-top: 94px;
+  padding-top: 15px;
   &:not(:last-child) {
     margin-right: 8px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 94px;
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
   }
 }
