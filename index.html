@@ -174,12 +174,32 @@
             <h2 class="section team__title">Наша команда</h2>
               <ul class="list team-list">
               <li class="team-list__item">
-              <img
-                src="./images/team_card1.jpg"
-                alt="Портрет1"
-                width="270"
-                height="260"
-              />
+                <picture>
+                  
+                  <source srcset="
+                  ./images/team/team_card1-min.jpg 1x, 
+                  ./images/team/team_card1-2x-min.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                  >
+                  <source srcset="
+                  ./images/team/team_card1-tab-min.jpg 1x, 
+                  ./images/team/team_card1-tab-2x-min.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  >
+                  <source srcset="
+                  ./images/team/team_card1-mob-min.jpg 1x, 
+                  ./images/team/team_card1-mob-2x-min.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                  >
+                  <img
+                    src="./images/team/team_card1-mob-min.jpg"
+                    alt="Портрет1"
+                  />
+                </picture>
+              
               <div class="persons__title-item-text"><h3 class="persons__title">Игорь Демьяненко</h3>
               <p lang="en" class="persons__item-text">Product Designer</p>
               <ul class="persons-social-list list">
