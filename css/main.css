@@ -1260,6 +1260,7 @@ body {
 }
 
 .card__item {
+  border: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1295,7 +1296,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /* width: 370px; */
+  width: 322px;
   height: 101%;
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
@@ -1332,6 +1333,5 @@ body {
 
 .card__text-item-text {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
 }
 /*# sourceMappingURL=main.css.map */
