@@ -1253,12 +1253,6 @@ body {
   padding-bottom: 94px;
 }
 
-@media screen and (min-width: 768px) {
-  .features-card__list {
-    margin-right: 15px;
-  }
-}
-
 .card__item {
   border: 1px solid #eeeeee;
   margin-right: 30px;
@@ -1296,7 +1290,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 322px;
+  width: 100%;
   height: 101%;
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
@@ -1321,12 +1315,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
-}
-
-@media screen and (min-width: 1200px) {
-  .card__text {
-    width: 322px;
-  }
 }
 
 .card__item-text {
