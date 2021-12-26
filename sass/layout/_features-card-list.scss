@@ -68,6 +68,9 @@
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
+  @media screen and (min-width: 1200px) {
+    width: 322px;
+  }
 }
 
 .card__item-text {
