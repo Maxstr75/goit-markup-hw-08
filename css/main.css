@@ -245,6 +245,12 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
+@media screen and (min-width: 768px) {
+  .page__header {
+    display: flex;
+  }
+}
+
 .header-container {
   display: flex;
   align-items: center;

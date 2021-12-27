@@ -8,6 +8,9 @@
   padding-top: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .header-container {
