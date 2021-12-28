@@ -147,6 +147,9 @@
 .icon__mail {
   margin-right: 10px;
   fill: currentColor;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .header__tel {
@@ -162,11 +165,20 @@
   &:focus {
     color: var(--accent-color);
   }
+  @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    padding-left: 40px;
+  }
 }
 
 .icon__tel {
   margin-right: 10px;
   fill: currentColor;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 }
 
 .menu-container {
