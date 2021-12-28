@@ -199,13 +199,15 @@
   }
   @media screen and (min-width: 768px) {
     display: flex;
-    flex-wrap: nowrap;
   }
 }
 
 .mobile-menu {
-  display: flex;
-  width: 500px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
 }
 
 .menu-toggle {
