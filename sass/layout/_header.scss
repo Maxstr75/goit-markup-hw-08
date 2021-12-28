@@ -34,13 +34,9 @@
 }
 
 .link-box {
-  display: flex;
   align-items: center;
   @media screen and (max-width: 767px) {
-    display: none;
-  }
-  @media screen and (min-width: 768px) {
-    display: block;
+    display: flex;
   }
 }
 
@@ -81,7 +77,6 @@
 }
 
 .header__link {
-  display: flex;
   margin-left: auto;
   font-weight: 500;
   font-size: 14px;
@@ -95,12 +90,10 @@
     color: var(--accent-color);
   }
   @media screen and (max-width: 767px) {
+    display: flex;
     font-size: 40px;
     line-height: 1.18;
     text-align: center;
-    @media screen and (min-width: 768px) {
-      display: block;
-    }
   }
 }
 
@@ -206,7 +199,13 @@
   }
   @media screen and (min-width: 768px) {
     display: flex;
+    flex-wrap: nowrap;
   }
+}
+
+.mobile-menu {
+  display: flex;
+  width: 500px;
 }
 
 .menu-toggle {
