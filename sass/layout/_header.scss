@@ -272,6 +272,14 @@
   }
 }
 
+.link-box__item {
+  @media screen and (min-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
 // .link-box {
 //   align-items: center;
 //   @media screen and (max-width: 767px) {
