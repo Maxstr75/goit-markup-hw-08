@@ -280,9 +280,12 @@
   }
   @media screen and (max-width: 767px) {
     &:not(:last-child) {
-      padding-bottom: 64px;
+      margin-bottom: 32px;
     }
   }
+}
+
+.header__tel {
 }
 
 // .link-box {
