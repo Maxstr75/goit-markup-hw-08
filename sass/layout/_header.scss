@@ -264,20 +264,23 @@
   align-items: center;
   @media screen and (max-width: 767px) {
     display: flex;
-    &:not(:last-child) {
-      padding-bottom: 32px;
-    }
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: #757575;
+    align-items: start;
   }
 }
 
 .link-box__item {
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     &:not(:last-child) {
       margin-bottom: 10px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      padding-bottom: 64px;
     }
   }
 }
