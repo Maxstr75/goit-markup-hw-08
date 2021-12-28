@@ -33,13 +33,6 @@
   align-items: center;
 }
 
-.link-box {
-  align-items: center;
-  @media screen and (max-width: 767px) {
-    display: flex;
-  }
-}
-
 .header-list__item {
   // &:not(:last-child) {
   margin-right: 50px;
@@ -266,7 +259,9 @@
 }
 
 .link-box {
+  align-items: center;
   @media screen and (max-width: 767px) {
+    display: flex;
     &:not(:last-child) {
       padding-bottom: 32px;
     }
@@ -276,3 +271,10 @@
     color: #757575;
   }
 }
+
+// .link-box {
+//   align-items: center;
+//   @media screen and (max-width: 767px) {
+//     display: flex;
+//   }
+// }
