@@ -270,6 +270,9 @@
     color: #757575;
     align-items: start;
   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .link-box__item {
