@@ -39,6 +39,9 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .header-list__item {
@@ -95,6 +98,9 @@
     font-size: 40px;
     line-height: 1.18;
     text-align: center;
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
   }
 }
 
