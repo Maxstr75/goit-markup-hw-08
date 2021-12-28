@@ -269,7 +269,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .header-list {
-    display: block;
+    flex-direction: column;
   }
 }
 
@@ -332,9 +332,9 @@ body {
 @media screen and (max-width: 767px) {
   .header__link {
     display: flex;
+    flex-direction: column-reverse;
     font-size: 40px;
     line-height: 1.18;
-    text-align: center;
   }
 }
 
