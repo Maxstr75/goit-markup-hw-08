@@ -54,6 +54,9 @@
       text-align: center;
       margin: 0px 40px;
     }
+    @media screen and (max-width: 767px) {
+      margin: auto;
+    }
   }
 }
 
