@@ -278,6 +278,7 @@
 
 .social-link {
   display: flex;
+  padding-left: 40px;
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -285,6 +286,7 @@
 
 .social-link__item {
   display: flex;
+  margin-top: 64px;
   justify-content: center;
   font-family: Roboto;
   font-style: normal;
@@ -293,9 +295,11 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2196f3;
-  padding-left: 40px;
+
   &:not(:last-child) {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right: 10px;
+    margin-right: 20px;
   }
   &:hover,
   &:focus {
