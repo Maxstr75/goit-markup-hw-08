@@ -128,6 +128,15 @@ body {
   margin-bottom: 12px;
 }
 
+@media screen and (max-width: 1199px) {
+  .modal .modal__title {
+    width: 370px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
 .modal__form .modal__form-input {
   width: 448px;
   height: 40px;

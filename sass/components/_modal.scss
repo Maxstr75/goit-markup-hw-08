@@ -41,6 +41,12 @@
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 12px;
+    @media screen and (max-width: 1199px) {
+      width: 370px;
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: center;
+    }
   }
 }
 
