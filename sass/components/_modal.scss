@@ -34,7 +34,7 @@
   @media screen and (max-width: 1199px) {
     margin: auto;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     width: 450px;
   }
   .modal__title {
@@ -52,7 +52,7 @@
       font-size: 20px;
       line-height: 1.5;
       text-align: center;
-      margin: 0px 40px;
+      // margin: 0px 40px;
     }
     @media screen and (max-width: 767px) {
       margin: auto;

@@ -1,11 +1,8 @@
-// .peculiarities {
-//   padding-top: 60px;
-//   padding-bottom: 60px;
-// }
-
-.peculiarities__container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.peculiarities {
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -66,6 +63,9 @@
   margin-top: 30px;
   margin-bottom: 10px;
   text-align: left;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .peculiarities__after-title {
