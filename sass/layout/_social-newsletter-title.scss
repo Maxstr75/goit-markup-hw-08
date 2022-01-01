@@ -74,10 +74,11 @@
     margin-bottom: 20px;
   }
   @media screen and (min-width: 1200px) {
-    width: 320px;
+    width: 358px;
     margin-bottom: unset;
     margin-right: 12px;
     margin-left: 73px;
+    transform: translate(-10%);
   }
 }
 

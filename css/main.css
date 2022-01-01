@@ -1137,7 +1137,6 @@ body {
   .footer-left {
     margin-bottom: 0;
     text-align: left;
-    margin-left: 60px;
   }
 }
 
@@ -1343,10 +1342,11 @@ body {
 
 @media screen and (min-width: 1200px) {
   .online-input {
-    width: 320px;
+    width: 358px;
     margin-bottom: unset;
     margin-right: 12px;
     margin-left: 73px;
+    transform: translate(-10%);
   }
 }
 
